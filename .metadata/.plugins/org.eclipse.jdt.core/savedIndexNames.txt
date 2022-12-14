@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\SB-101_JavaCWProject\gifted-belief-2114\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-1560896423.index
