@@ -1,0 +1,5 @@
+package com.ohasss.utility;
+
+public class DBUtil {
+
+}
