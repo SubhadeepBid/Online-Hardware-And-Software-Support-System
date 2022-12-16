@@ -2,59 +2,59 @@ package com.ohasss.model;
 
 public class Employee {
 	
-	private int empId;
-	private String empName;
-	private String empUsername;
-	private String empPassword;
+	private int empid;
+	private String empname;
+	private String empusername;
+	private String emppassword;
 	
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(int empId, String empName, String empUsername, String empPassword) {
+	public Employee(int empid, String empname, String empusername, String emppassword) {
 		super();
-		this.empId = empId;
-		this.empName = empName;
-		this.empUsername = empUsername;
-		this.empPassword = empPassword;
+		this.empid = empid;
+		this.empname = empname;
+		this.empusername = empusername;
+		this.emppassword = emppassword;
 	}
 
-	public int getEmpId() {
-		return empId;
+	public int getEmpid() {
+		return empid;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
+	public void setEmpid(int empid) {
+		this.empid = empid;
 	}
 
-	public String getEmpName() {
-		return empName;
+	public String getEmpname() {
+		return empname;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+	public void setEmpname(String empname) {
+		this.empname = empname;
 	}
 
-	public String getEmpUsername() {
-		return empUsername;
+	public String getEmpusername() {
+		return empusername;
 	}
 
-	public void setEmpUsername(String empUsername) {
-		this.empUsername = empUsername;
+	public void setEmpusername(String empusername) {
+		this.empusername = empusername;
 	}
 
-	public String getEmpPassword() {
-		return empPassword;
+	public String getEmppassword() {
+		return emppassword;
 	}
 
-	public void setEmpPassword(String empPassword) {
-		this.empPassword = empPassword;
+	public void setEmppassword(String emppassword) {
+		this.emppassword = emppassword;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", empUsername=" + empUsername + ", empPassword="
-				+ empPassword + "]";
+		return "Employee [empid=" + empid + ", empname=" + empname + ", empusername=" + empusername + ", emppassword="
+				+ emppassword + "]";
 	}
-
+	
 }

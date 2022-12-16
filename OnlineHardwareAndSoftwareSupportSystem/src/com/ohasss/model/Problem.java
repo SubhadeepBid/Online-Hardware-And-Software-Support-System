@@ -2,37 +2,37 @@ package com.ohasss.model;
 
 public class Problem {
 	
-	private int problemId;
-	private int empId;
+	private int problemid;
+	private int empid;
 	private String category;
-	private String pname;
+	private String name;
 	
 	public Problem() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Problem(int problemId, int empId, String category, String pname) {
+	public Problem(int problemid, int empid, String category, String name) {
 		super();
-		this.problemId = problemId;
-		this.empId = empId;
+		this.problemid = problemid;
+		this.empid = empid;
 		this.category = category;
-		this.pname = pname;
+		this.name = name;
 	}
 
-	public int getProblemId() {
-		return problemId;
+	public int getProblemid() {
+		return problemid;
 	}
 
-	public void setProblemId(int problemId) {
-		this.problemId = problemId;
+	public void setProblemid(int problemid) {
+		this.problemid = problemid;
 	}
 
-	public int getEmpId() {
-		return empId;
+	public int getEmpid() {
+		return empid;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
+	public void setEmpid(int empid) {
+		this.empid = empid;
 	}
 
 	public String getCategory() {
@@ -43,17 +43,17 @@ public class Problem {
 		this.category = category;
 	}
 
-	public String getPname() {
-		return pname;
+	public String getName() {
+		return name;
 	}
 
-	public void setPname(String pname) {
-		this.pname = pname;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Problem [problemId=" + problemId + ", empId=" + empId + ", category=" + category + ", pname=" + pname
+		return "Problem [problemid=" + problemid + ", empid=" + empid + ", category=" + category + ", name=" + name
 				+ "]";
 	}
 
