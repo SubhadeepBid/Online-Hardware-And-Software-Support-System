@@ -2,55 +2,55 @@ package com.ohasss.model;
 
 public class Engineer {
 	
-	private int engId;
-	private String name;
-	private String email;
-	private String password;
+	private int engid;
+	private String engname;
+	private String enguser;
+	private String engpass;
 	private String category;
 	
 	public Engineer() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Engineer(int engId, String name, String email, String password, String category) {
+	public Engineer(int engid, String engname, String enguser, String engpass, String category) {
 		super();
-		this.engId = engId;
-		this.name = name;
-		this.email = email;
-		this.password = password;
+		this.engid = engid;
+		this.engname = engname;
+		this.enguser = enguser;
+		this.engpass = engpass;
 		this.category = category;
 	}
 
-	public int getEngId() {
-		return engId;
+	public int getEngid() {
+		return engid;
 	}
 
-	public void setEngId(int engId) {
-		this.engId = engId;
+	public void setEngid(int engid) {
+		this.engid = engid;
 	}
 
-	public String getName() {
-		return name;
+	public String getEngname() {
+		return engname;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setEngname(String engname) {
+		this.engname = engname;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getEnguser() {
+		return enguser;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEnguser(String enguser) {
+		this.enguser = enguser;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getEngpass() {
+		return engpass;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setEngpass(String engpass) {
+		this.engpass = engpass;
 	}
 
 	public String getCategory() {
@@ -63,8 +63,8 @@ public class Engineer {
 
 	@Override
 	public String toString() {
-		return "Engineer [engId=" + engId + ", name=" + name + ", email=" + email + ", password=" + password
+		return "Engineer [engid=" + engid + ", engname=" + engname + ", enguser=" + enguser + ", engpass=" + engpass
 				+ ", category=" + category + "]";
 	}
-
+	
 }

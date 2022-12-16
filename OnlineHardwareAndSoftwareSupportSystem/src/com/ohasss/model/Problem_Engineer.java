@@ -2,10 +2,10 @@ package com.ohasss.model;
 
 public class Problem_Engineer {
 	
-	private int problemId;
-	private int engId;
-	private int empId;
-	private String pName;
+	private int problemid;
+	private int engid;
+	private int empid;
+	private String name;
 	private String category;
 	private String status;
 	
@@ -13,46 +13,46 @@ public class Problem_Engineer {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Problem_Engineer(int problemId, int engId, int empId, String pName, String category, String status) {
+	public Problem_Engineer(int problemid, int engid, int empid, String name, String category, String status) {
 		super();
-		this.problemId = problemId;
-		this.engId = engId;
-		this.empId = empId;
-		this.pName = pName;
+		this.problemid = problemid;
+		this.engid = engid;
+		this.empid = empid;
+		this.name = name;
 		this.category = category;
 		this.status = status;
 	}
 
-	public int getProblemId() {
-		return problemId;
+	public int getProblemid() {
+		return problemid;
 	}
 
-	public void setProblemId(int problemId) {
-		this.problemId = problemId;
+	public void setProblemid(int problemid) {
+		this.problemid = problemid;
 	}
 
-	public int getEngId() {
-		return engId;
+	public int getEngid() {
+		return engid;
 	}
 
-	public void setEngId(int engId) {
-		this.engId = engId;
+	public void setEngid(int engid) {
+		this.engid = engid;
 	}
 
-	public int getEmpId() {
-		return empId;
+	public int getEmpid() {
+		return empid;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
+	public void setEmpid(int empid) {
+		this.empid = empid;
 	}
 
-	public String getpName() {
-		return pName;
+	public String getName() {
+		return name;
 	}
 
-	public void setpName(String pName) {
-		this.pName = pName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getCategory() {
@@ -73,7 +73,7 @@ public class Problem_Engineer {
 
 	@Override
 	public String toString() {
-		return "Problem_Engineer [problemId=" + problemId + ", engId=" + engId + ", empId=" + empId + ", pName=" + pName
+		return "Problem_Engineer [problemid=" + problemid + ", engid=" + engid + ", empid=" + empid + ", name=" + name
 				+ ", category=" + category + ", status=" + status + "]";
 	}
 
