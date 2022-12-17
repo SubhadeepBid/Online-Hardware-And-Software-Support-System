@@ -10,6 +10,18 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Employee(String empusername, String emppassword) {
+
+		this.empusername = empusername;
+		this.emppassword = emppassword;
+	}
+	public Employee(String empname, String empusername, String emppassword) {
+
+		this.empname = empname;
+		this.empusername = empusername;
+		this.emppassword = emppassword;
+	}
 
 	public Employee(int empid, String empname, String empusername, String emppassword) {
 		super();

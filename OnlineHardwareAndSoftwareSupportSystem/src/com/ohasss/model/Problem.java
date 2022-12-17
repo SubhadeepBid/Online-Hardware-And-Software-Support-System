@@ -10,7 +10,23 @@ public class Problem {
 	public Problem() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Problem(int problemid) {
+		super();
+		this.problemid = problemid;
+	}
+	public Problem(int empid, String category) {
 
+		this.empid = empid;
+		this.category = category;
+	}
+	public Problem(int problemid, String category, String name) {
+
+		this.problemid = problemid;
+		this.category = category;
+		this.name = name;
+	}
+	
 	public Problem(int problemid, int empid, String category, String name) {
 		super();
 		this.problemid = problemid;

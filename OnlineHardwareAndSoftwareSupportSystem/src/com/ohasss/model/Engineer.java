@@ -11,6 +11,27 @@ public class Engineer {
 	public Engineer() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Engineer(String enguser, String engpass) {
+		super();
+		this.enguser = enguser;
+		this.engpass = engpass;
+	}
+	
+	public Engineer(String engname, String enguser, String engpass, String category) {
+		super();
+		this.engname = engname;
+		this.enguser = enguser;
+		this.engpass = engpass;
+		this.category = category;
+	}
+	
+	public Engineer(String enguser, String engpass, String category) {
+
+		this.enguser = enguser;
+		this.engpass = engpass;
+		this.category = category;
+	}
 
 	public Engineer(int engid, String engname, String enguser, String engpass, String category) {
 		super();
