@@ -25,6 +25,10 @@ employee must report to this department. Engineers from this department take car
 <p>• View All The Raised Problem</p>
 <p>• Assign Any Problem To Any Engineer</p>
 
+![image](https://user-images.githubusercontent.com/107462648/208659968-b07c78d4-d4de-4d11-b6c7-c8559710d05f.png)
+
+![image](https://user-images.githubusercontent.com/107462648/208660151-046315c2-0f7b-4126-a831-6dd08deb18e4.png)
+
 <br />
 <h3>Roles of Engineer:</h3>
 <p>• Login(credentials given by the HOD)</p>
