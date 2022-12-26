@@ -12,9 +12,8 @@ important to take care of these hardware and in case of fault , that should be r
 hardwares there exists a separate department, generally known as “SYSTEM ENGINEERS DEPARTMENT” . For any problem, concerned
 employee must report to this department. Engineers from this department take care of the problem.</p>
 <br />
-![FlowDiagram drawio](https://user-images.githubusercontent.com/107462648/209550942-57aed97a-8b75-4167-b6af-bb1f24af4d82.png)
-![FlowDiagram drawio](https://user-images.githubusercontent.com/107462648/209551140-b5906f76-451c-406a-bb25-624e73a79ede.png)
 
+<img src="https://user-images.githubusercontent.com/107462648/209551140-b5906f76-451c-406a-bb25-624e73a79ede.png"> 
 <h3>Users:</h3>
 <h3>1. HOD</h3>
 <h3>2. Engineer</h3>
