@@ -13,7 +13,7 @@ hardwares there exists a separate department, generally known as “SYSTEM ENGIN
 employee must report to this department. Engineers from this department take care of the problem.</p>
 <br />
 
-<img src="https://user-images.githubusercontent.com/107462648/209551140-b5906f76-451c-406a-bb25-624e73a79ede.png"> 
+<img src="https://user-images.githubusercontent.com/107462648/214226538-4bb52418-6484-4589-b0b0-5a7fea470f33.png"> 
 <h3>Users:</h3>
 <h3>1. HOD</h3>
 <h3>2. Engineer</h3>
